@@ -100,9 +100,11 @@ export class WebKey extends LitElement {
       text-overflow: ellipsis;
       text-align: center;
       font-family: 'Noto Sans Mono', monospace;
+      font-variant-ligatures: none;
+      font-weight: normal;
+      font-size: 18px;
       line-height: calc(1rlh + 10px);
       touch-action: none;
-      font-variant-ligatures: none;
       background-color: #aaac;
       user-select: none;
     }

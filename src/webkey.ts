@@ -108,6 +108,9 @@ export class WebKey extends LitElement {
       background-color: #aaac;
       user-select: none;
     }
+    :host([disabled]) {
+      display: none;
+    }
     #cursor {
       animation: blink 1000ms step-start infinite;
     }
